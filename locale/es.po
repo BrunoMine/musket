@@ -3,28 +3,29 @@
 # This file is distributed under the same license as the Musket package.
 # BrunoMine <borgesdossantosbruno@gmail.com>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-24 01:03-0300\n"
-"PO-Revision-Date: 2019-03-24 01:29+‎UTC−3\n"
-"Last-Translator: BrunoMine <borgesdossantosbruno@gmail.com>\n"
+"PO-Revision-Date: 2019-03-24 01:40-0300\n"
 "Language-Team: TEMPLATE\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 
 #: init.lua
 msgid "Musket Ammo"
-msgstr ""
+msgstr "Munición de Mosquete"
 
 #: init.lua
 msgid "Musket (Loaded)"
-msgstr ""
+msgstr "Mosquete (Cargado)"
 
 #: init.lua
 msgid "Musket"
-msgstr ""
+msgstr "Mosquete"
