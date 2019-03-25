@@ -9,7 +9,7 @@
 Add Musket for Minetest
 
 ## Depends
-* Minetest 0.5.0 or higher
+* Minetest 5.0.0 or higher
 * Mod shooter
 
 ## License
