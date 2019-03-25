@@ -75,6 +75,8 @@ do
 	-- Separate groups
 	def.groups = minetest.deserialize(minetest.serialize(def.groups)) or {}
 	
+	def.groups.not_in_creative_inventory = nil
+	
 	-- New 'on_use' callback
 	def.on_use = function(itemstack, user, pointed_thing)
 		if old_on_use then
