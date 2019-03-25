@@ -1,0 +1,15 @@
+{
+    "name": "musket",
+    "description": "Musket for Minetest",
+    "keywords": [
+        "musket"
+    ],
+    "homepage": "https://github.com/BrunoMine/musket",
+    "forum": "https://forum.minetest.net/viewtopic.php?t=1",
+    "screenshots": [
+        "https://raw.githubusercontent.com/BrunoMine/musket/master/screenshot.png"
+    ],
+    "authors": [
+        "BrunoMine"
+    ]
+}
