@@ -63,35 +63,6 @@ shooter.register_weapon("musket:musket", {
 	},
 })
 
--- Exchange mesket to unloaded after a shot
-local old_on_use = minetest.registered_tools["musket:musket_loaded"].on_use
-do
-	-- Copy table def
-	local def = {}
-	for n,d in pairs(minetest.registered_tools["musket:musket_loaded"]) do
-		def[n] = d
-	end
-	
-	-- Separate groups
-	def.groups = minetest.deserialize(minetest.serialize(def.groups)) or {}
-	
-	def.groups.not_in_creative_inventory = nil
-	
-	-- New 'on_use' callback
-	def.on_use = function(itemstack, user, pointed_thing)
-		if old_on_use then
-			itemstack = old_on_use(itemstack, user, pointed_thing)
-		end
-		
-		-- Exchange mesket
-		itemstack:set_name("musket:musket")
-		
-		return itemstack
-	end
-	
-	-- Override item
-	minetest.override_item("musket:musket_loaded", {groups=def.groups, on_use=def.on_use})
-end
 
 -- Musket craft
 minetest.register_craft({
